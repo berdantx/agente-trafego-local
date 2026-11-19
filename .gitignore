@@ -1,0 +1,12 @@
+# Notas internas de quem mantém o agente
+_interno/
+
+# Campanhas reais ficam só no computador de quem usa
+campanhas/*
+!campanhas/exemplo-transportadora/
+
+# Segredos e arquivos locais
+.env*
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
